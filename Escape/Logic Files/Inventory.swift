@@ -2,7 +2,7 @@
 // Inventory.swift
 // Escape
 //
-// Displays the player inventory and allows object use
+// Manages the player's inventory and allows object use
 //
 // @Author Emily Hoppe
 // Last Updated: 4.19.21
