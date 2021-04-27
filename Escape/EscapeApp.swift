@@ -1,8 +1,9 @@
 //
-//  EscapeApp.swift
-//  Escape
+// EscapeApp.swift
+// Escape
 //
-//  Created by Maria Sepulveda on 4/14/21.
+// @Author Emily Hoppe
+// Last Updated: 4.12.21
 //
 
 import SwiftUI
