@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0204205E26391014000558BE /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0204205D26391013000558BE /* InventoryView.swift */; };
 		022A94A22627633C0098E6B5 /* EscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A94A12627633C0098E6B5 /* EscapeApp.swift */; };
 		022A94A42627633C0098E6B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A94A32627633C0098E6B5 /* ContentView.swift */; };
 		022A94A6262763410098E6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022A94A5262763410098E6B5 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		024461FA2637BACE0033F91D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024461F52637BAA40033F91D /* Puzzle.swift */; };
 		028BE4CD262A491700830043 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028BE4CC262A491700830043 /* RoomView.swift */; };
 		02DAA47A26289D2A00553F06 /* RugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DAA47926289D2A00553F06 /* RugView.swift */; };
-		02E5D2242627A222005B52DC /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D2232627A222005B52DC /* InventoryView.swift */; };
 		02E5D22F2627AC2B005B52DC /* DoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D22E2627AC2B005B52DC /* DoorView.swift */; };
 		02E5D2322627BF01005B52DC /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D2312627BF01005B52DC /* PaintingView.swift */; };
 		02E5D2352627DEEE005B52DC /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D2342627DEEE005B52DC /* TrashView.swift */; };
@@ -29,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0204205D26391013000558BE /* InventoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		022A949E2627633C0098E6B5 /* Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022A94A12627633C0098E6B5 /* EscapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeApp.swift; sourceTree = "<group>"; };
 		022A94A32627633C0098E6B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		024461F52637BAA40033F91D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		028BE4CC262A491700830043 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		02DAA47926289D2A00553F06 /* RugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RugView.swift; sourceTree = "<group>"; };
-		02E5D2232627A222005B52DC /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		02E5D22E2627AC2B005B52DC /* DoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorView.swift; sourceTree = "<group>"; };
 		02E5D2312627BF01005B52DC /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingView.swift; sourceTree = "<group>"; };
 		02E5D2342627DEEE005B52DC /* TrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 			children = (
 				022A94A32627633C0098E6B5 /* ContentView.swift */,
 				028BE4CC262A491700830043 /* RoomView.swift */,
-				02E5D2232627A222005B52DC /* InventoryView.swift */,
 				02E5D22E2627AC2B005B52DC /* DoorView.swift */,
+				0204205D26391013000558BE /* InventoryView.swift */,
 				02E5D2312627BF01005B52DC /* PaintingView.swift */,
 				02E5D2342627DEEE005B52DC /* TrashView.swift */,
 				02E5D2372627E409005B52DC /* TableView.swift */,
@@ -203,7 +203,7 @@
 				02E5D2322627BF01005B52DC /* PaintingView.swift in Sources */,
 				024461F02634E2C90033F91D /* Navigator.swift in Sources */,
 				02E5D23E2627FFF4005B52DC /* DeskView.swift in Sources */,
-				02E5D2242627A222005B52DC /* InventoryView.swift in Sources */,
+				0204205E26391014000558BE /* InventoryView.swift in Sources */,
 				022A94A42627633C0098E6B5 /* ContentView.swift in Sources */,
 				022A94A22627633C0098E6B5 /* EscapeApp.swift in Sources */,
 				02EF15F5262A6D6F00DABDDF /* ClosetView.swift in Sources */,
